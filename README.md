@@ -24,8 +24,8 @@ Follow the [installation guide](https://docs.n8n.io/integrations/community-nodes
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/n8n-nodes-oracle.git
-cd n8n-nodes-oracle
+git clone https://github.com/askbgs/n8n-bgs-oracledb.git
+cd n8n-bgs-oracledb
 ```
 
 2. Install dependencies:
@@ -42,7 +42,7 @@ npm run build
 ```bash
 npm link
 cd /path/to/n8n
-npm link n8n-nodes-oracle
+npm link n8n-bgs-oracledb
 ```
 
 5. Start n8n:
