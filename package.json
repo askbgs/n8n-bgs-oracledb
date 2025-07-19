@@ -1,0 +1,50 @@
+{
+  "name": "n8n-bgs-oracledb",
+  "version": "0.1.2",
+  "description": "Custom Oracle Database node for n8n",
+  "main": "index.js",
+  "author": {
+    "name": "BGS",
+    "email": "askfrombgs@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/askbgs/n8n-bgs-oracledb"
+  },
+  "license": "MIT",
+  "keywords": [
+    "n8n",
+    "n8n-node",
+    "n8n-community-node-package",
+    "oracle",
+    "oracledb",
+    "database",
+    "sql"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "files": [
+    "dist"
+  ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "credentials": [
+      "dist/credentials/OracleDb.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/OracleDb/OracleDb.node.js"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/oracledb": "^6.0.0",
+    "n8n-core": "^1.0.0",
+    "n8n-workflow": "^1.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "oracledb": "^6.0.0"
+  }
+}
