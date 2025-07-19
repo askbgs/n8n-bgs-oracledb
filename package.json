@@ -1,6 +1,6 @@
 {
-  "name": "n8n-bgs-oracledb",
-  "version": "0.1.7",
+  "name": "n8n-nodes-bgsoracledb",
+  "version": "0.1.8",
   "description": "Custom Oracle Database node for n8n",
   "main": "index.js",
   "author": {
